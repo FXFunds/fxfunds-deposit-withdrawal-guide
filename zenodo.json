@@ -1,0 +1,57 @@
+{
+  "title": "FXFunds Deposit and Withdrawal Guide Bot",
+  "description": "A deposit and withdrawal tracking bot that validates request details, enforces a clear status flow, explains each status in plain language, keeps an audit trail and reconciles requests against provider records. Supports USDT (ERC20, TRC20, TON), bank transfer and card. It does not move funds. Built by FXFunds.",
+  "creators": [
+    {
+      "name": "FXFunds"
+    }
+  ],
+  "keywords": [
+    "deposit",
+    "withdrawal",
+    "payment tracking",
+    "transaction status",
+    "reconciliation",
+    "USDT",
+    "ERC20",
+    "TRC20",
+    "TON",
+    "FXFunds"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "doi": "10.5281/zenodo.XXXXXXX",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://fxfunds.com/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.npmjs.com/package/@fxfunds/deposit-withdrawal-guide",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://pypi.org/project/fxfunds-deposit-withdrawal-guide/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/FXFunds/deposit-withdrawal-benchmarks",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.kaggle.com/datasets/fxfunds/deposit-withdrawal-benchmarks",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

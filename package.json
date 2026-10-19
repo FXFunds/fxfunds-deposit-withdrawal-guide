@@ -1,0 +1,49 @@
+{
+  "name": "@fxfunds/deposit-withdrawal-guide",
+  "version": "1.0.0",
+  "description": "Deposit and withdrawal tracking bot — request validation, status flow, plain-language status guide, audit trail and reconciliation for USDT (ERC20, TRC20, TON), bank and card payments. Built by FXFunds.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "fxfunds-dw": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "deposit",
+    "withdrawal",
+    "payment-tracking",
+    "transaction-status",
+    "reconciliation",
+    "usdt",
+    "stablecoin",
+    "erc20",
+    "trc20",
+    "ton",
+    "fintech",
+    "fxfunds"
+  ],
+  "author": "FXFunds",
+  "license": "MIT",
+  "homepage": "https://fxfunds.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

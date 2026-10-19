@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fxfunds-deposit-withdrawal-guide"
+version = "1.0.0"
+description = "Deposit and withdrawal tracking bot with validation, status guide, audit trail and reconciliation. Built by FXFunds."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "FXFunds" }]
+keywords = [
+  "deposit", "withdrawal", "payment-tracking", "transaction-status", "reconciliation",
+  "usdt", "stablecoin", "erc20", "trc20", "ton", "fintech", "fxfunds"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Office/Business :: Financial",
+]
+
+[project.urls]
+Homepage = "https://fxfunds.com/"
+Repository = "https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide"
+Documentation = "https://fxfunds-deposit-withdrawal-guide.readthedocs.io"
+Issues = "https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide/issues"
+
+[project.scripts]
+fxfunds-dw = "fxfunds_deposit_withdrawal_guide:main"
+
+[tool.setuptools]
+py-modules = ["fxfunds_deposit_withdrawal_guide"]

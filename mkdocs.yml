@@ -1,0 +1,18 @@
+site_name: FXFunds Deposit and Withdrawal Guide Bot
+site_url: https://fxfunds-deposit-withdrawal-guide.readthedocs.io
+site_description: Deposit and withdrawal tracking bot with validation, status guide, audit trail and reconciliation. Built by FXFunds.
+site_author: FXFunds
+repo_url: https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide
+repo_name: FXFunds/fxfunds-deposit-withdrawal-guide
+copyright: MIT License — FXFunds (https://fxfunds.com/)
+
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true

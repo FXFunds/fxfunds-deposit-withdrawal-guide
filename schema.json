@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "FXFunds Deposit and Withdrawal Guide Bot",
+  "description": "Deposit and withdrawal tracking bot that validates request details, enforces a clear status flow, explains each status in plain language, keeps an audit trail and reconciles requests against provider records. Supports USDT (ERC20, TRC20, TON), bank transfer and card. It does not move funds.",
+  "url": "https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide",
+  "codeRepository": "https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide",
+  "programmingLanguage": ["TypeScript", "Python"],
+  "runtimePlatform": ["Node.js", "Python 3"],
+  "license": "https://opensource.org/licenses/MIT",
+  "version": "1.0.0",
+  "keywords": "deposit, withdrawal, payment tracking, transaction status, reconciliation, USDT, stablecoin, ERC20, TRC20, TON, fintech, FXFunds",
+  "author": {
+    "@type": "Organization",
+    "name": "FXFunds",
+    "url": "https://fxfunds.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FXFunds",
+    "url": "https://fxfunds.com/"
+  },
+  "identifier": "https://doi.org/10.5281/zenodo.XXXXXXX",
+  "sameAs": [
+    "https://fxfunds.com/",
+    "https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide",
+    "https://fxfunds.github.io/fxfunds-deposit-withdrawal-guide/",
+    "https://www.npmjs.com/package/@fxfunds/deposit-withdrawal-guide",
+    "https://pypi.org/project/fxfunds-deposit-withdrawal-guide/",
+    "https://huggingface.co/datasets/FXFunds/deposit-withdrawal-benchmarks",
+    "https://www.kaggle.com/datasets/fxfunds/deposit-withdrawal-benchmarks",
+    "https://zenodo.org/records/XXXXXXX",
+    "https://fxfunds-deposit-withdrawal-guide.readthedocs.io",
+    "https://fxfunds.quora.com/",
+    "https://www.pinterest.com/fxfunds_1/",
+    "https://medium.com/@FX_Funds"
+  ]
+}
