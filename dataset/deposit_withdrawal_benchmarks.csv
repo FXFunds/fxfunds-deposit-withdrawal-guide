@@ -1,0 +1,21 @@
+request_id,type,method,amount,currency,address,reference,tx_hash,status_path,final_status,validation,reconciliation,provider_amount,last_note
+DEP-001,deposit,usdt_trc20,500,USDT,,,9209dcb468e07e032fd0db161b56bb9a2f5fe555a6323d188a3b99e68433f7a4,pending > processing > confirmed > completed,completed,valid,matched,500,Credited.
+DEP-002,deposit,usdt_erc20,1000,USDT,,,0x3c5e11dc057071e2b0cf6128e6e96235783d50ead5d279dd919304ad752a37fe,pending > processing > confirmed > completed,completed,valid,amount_mismatch,995,Credited.
+DEP-003,deposit,usdt_ton,250,USDT,,,80ac04c605ed2d8f598271fc0ed9adb98a5c1df882c684b3e38e01837f1d286b,pending > processing > confirmed,confirmed,valid,matched,250,Confirmed on TON.
+DEP-004,deposit,bank_transfer,2000,USD,,BNK-692718,,pending > processing > confirmed > completed,completed,valid,matched,2000,Credited.
+DEP-005,deposit,card,150,USD,,CRD-253703,,pending > processing,processing,valid,unmatched_request,,Awaiting card processor settlement.
+DEP-006,deposit,usdt_trc20,75,USDT,,,,pending,pending,valid,n/a,,
+DEP-007,deposit,usdt_erc20,300,USDT,,,,pending > rejected,rejected,valid,n/a,,Payment sent from an unsupported network.
+WD-008,withdrawal,usdt_trc20,400,USDT,Tgvr6CpZSgkQK6gmifB38pC29gk9oKXznK,,113a04b2566da7db79e4bc91fcb656add11adf5db7a19e5cbf0d5e6d2e0cc811,pending > processing > confirmed > completed,completed,valid,matched,400,Withdrawal complete.
+WD-009,withdrawal,usdt_erc20,120,USDT,0xdcb8542e32df493066b989df9a074243983221f1,,,pending > processing,processing,valid,unmatched_request,,Approved by operator.
+WD-010,withdrawal,usdt_ton,60,USDT,UQi1AZJQWb_HShAxF1FCRSBt1B-K6pkEVanOSURO2ZVaIiMQ,,3db26ca374bde657a13442b11e158b6ea92df3ccc05201a43ac4d948c58ca40a,pending > processing > confirmed > completed,completed,valid,matched,60,Withdrawal complete.
+WD-011,withdrawal,bank_transfer,900,USD,Account ending 4821,BNK-925027,,pending > processing > confirmed,confirmed,valid,matched,900,Bank confirmed payout.
+WD-012,withdrawal,usdt_trc20,250,USDT,TLc6yYXPn4rTjqw6JC82ggFzQUzyvGf6uh,,,pending > processing > failed,failed,valid,n/a,,Network provider unavailable; request returned.
+WD-013,withdrawal,usdt_erc20,5000,USDT,0x886654fadab7d1ca3214353d94b53ba9e6c9151e,,,pending > rejected,rejected,valid,n/a,,Additional verification required.
+WD-014,withdrawal,usdt_trc20,35,USDT,TbShi39X1oQswhVrFbyAjnDn3JytdD8LYe,,,pending,pending,valid,n/a,,
+WD-015,withdrawal,usdt_erc20,80,USDT,0x088ff5dd636c,,,,not_created,Address format is not valid for USDT (Ethereum ERC20).,n/a,,
+DEP-016,deposit,bank_transfer,600,USD,,,,,not_created,A payment reference is required for Bank transfer deposits.,n/a,,
+WD-017,withdrawal,usdt_ton,45,USDT,,,,,not_created,Destination address is required for crypto withdrawals.,n/a,,
+DEP-018,deposit,usdt_trc20,500,USDT,,,,pending,pending,valid,n/a,,Blocked: Duplicate: transaction hash already used by DEP-001.
+DEP-019,deposit,usdt_ton,100,USDT,,,0d3858767096d25d66162005b10daf27814031632742e8ff1150af0c7a1a5fb2,pending > processing > confirmed > completed,completed,valid,amount_mismatch,110,Credited.
+DEP-020,deposit,usdt_erc20,50,USDT,,,0x69a997d7112accd72576d32e1f82c371a5c1856a445bf5c016d76b4e0f67ee23,pending > processing > confirmed > completed,completed,valid,matched,50,Blocked: Cannot move DEP-020 from completed to processing.
