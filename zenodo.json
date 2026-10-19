@@ -21,7 +21,7 @@
   "license": "MIT",
   "upload_type": "software",
   "access_right": "open",
-  "doi": "10.5281/zenodo.XXXXXXX",
+    "doi": "10.5281/zenodo.23464782",
   "related_identifiers": [
     {
       "identifier": "https://github.com/FXFunds/fxfunds-deposit-withdrawal-guide",
