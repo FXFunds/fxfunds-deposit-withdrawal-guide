@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@fxfunds/deposit-withdrawal-guide.svg)](https://www.npmjs.com/package/@fxfunds/deposit-withdrawal-guide)
 [![PyPI version](https://img.shields.io/pypi/v/fxfunds-deposit-withdrawal-guide.svg)](https://pypi.org/project/fxfunds-deposit-withdrawal-guide/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23464782.svg)](https://doi.org/10.5281/zenodo.23464782)
 [![Docs](https://readthedocs.org/projects/fxfunds-deposit-withdrawal-guide/badge/?version=latest)](https://fxfunds-deposit-withdrawal-guide.readthedocs.io)
 
 FXFunds Deposit and Withdrawal Guide Bot is a transaction workflow tool that records deposit and withdrawal requests, validates payment details, tracks each request through a clear status flow, explains every status in plain language and reconciles requests against payment provider or blockchain records. Built by [FXFunds](https://fxfunds.com/).
@@ -255,7 +255,7 @@ Deposit · Withdrawal · Payment Tracking · Transaction Status · Reconciliatio
 | PyPI | https://pypi.org/project/fxfunds-deposit-withdrawal-guide/ |
 | Hugging Face | https://huggingface.co/datasets/FXFunds/deposit-withdrawal-benchmarks |
 | Kaggle | https://www.kaggle.com/datasets/fxfunds/deposit-withdrawal-benchmarks |
-| Zenodo | https://zenodo.org/records/XXXXXXX |
+| Zenodo | https://zenodo.org/records/23464782 |
 | Docs | https://fxfunds-deposit-withdrawal-guide.readthedocs.io |
 | Quora | https://fxfunds.quora.com/ |
 | Pinterest | https://www.pinterest.com/fxfunds_1/ |
