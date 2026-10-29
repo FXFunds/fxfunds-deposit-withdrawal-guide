@@ -91,9 +91,22 @@ All requests need a unique request ID and an amount greater than 0. A transactio
 | unmatched_transaction | Provider record matches no request |
 | missing_reference | Provider record has no hash or reference |
 
-## Security
+# FXFunds Deposits and Withdrawals FAQ
 
-The bot tracks and explains requests only. It never initiates deposits, approves withdrawals or transfers funds, and it never asks for passwords, private keys or seed phrases. Review the code, add tests and check your integrations before using it for real transactions.
+**What payment methods does FXFunds support?**  
+The FXFunds website lists GPay, bank cards, Binance Pay, and USDT payment networks, including TON, Ethereum ERC-20, and Tron TRC-20.
+
+**Does FXFunds support USDT deposits and withdrawals?**  
+FXFunds lists USDT networks as payment options. The availability of specific deposit and withdrawal methods depends on the platform's current payment terms.
+
+**How do FXFunds withdrawals work?**  
+Withdrawal requests are subject to the applicable account procedures, identity verification requirements, supported payment methods, and transaction terms.
+
+**Does FXFunds offer quick withdrawals?**  
+FXFunds highlights quick withdrawals in its platform presentation. Actual processing times depend on the payment channel and applicable transaction requirements.
+
+**Can users deposit using bank cards?**  
+Bank cards appear among the payment methods listed on the FXFunds website.
 
 ## Links
 
