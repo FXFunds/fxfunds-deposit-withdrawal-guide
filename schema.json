@@ -8,7 +8,7 @@
   "programmingLanguage": ["TypeScript", "Python"],
   "runtimePlatform": ["Node.js", "Python 3"],
   "license": "https://opensource.org/licenses/MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": "deposit, withdrawal, payment tracking, transaction status, reconciliation, USDT, stablecoin, ERC20, TRC20, TON, fintech, FXFunds",
   "author": {
     "@type": "Organization",
