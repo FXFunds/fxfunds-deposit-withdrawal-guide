@@ -8,7 +8,7 @@ It does not move funds, approve withdrawals or ask for passwords, keys or seed p
 Built by FXFunds — https://fxfunds.com/
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 import argparse
 import csv
